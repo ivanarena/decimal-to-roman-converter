@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+}
+
+#main-box {
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+#header-box {
+    font-family: 'Jost', sans-serif;
+    margin: 25vh 0 -10vh 0;
+    text-align: center;
+}
+
+#decimal {
+    color: orange;
+}
+
+#roman {
+    color: crimson;
+}
+
+#github-logo {
+    margin-top: 2rem;
+    width: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    #flex-box {
+        flex-direction: column;
+    }
+
+    #header-box {
+        margin: 15vh 0 5vh 0;
+    }
+}
+
+#flex-box {
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+}
+
+#decimal-box, #text-box, #roman-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    margin: 1vw;
+}
+
+#decimal-input {
+    outline: none;
+    color: black;
+    box-sizing: content-box;
+    border: none;
+    padding: .6rem;
+    border-bottom: 2px solid darkorange;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: bold;    
+    text-align: center;
+}
+
+#roman-output {
+    font-weight: bold;
+    border-bottom: 2px solid crimson;
+    padding: .6rem;
+}

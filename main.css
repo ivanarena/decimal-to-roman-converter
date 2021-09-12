@@ -15,7 +15,7 @@
 }
 
 #decimal {
-    color: orange;
+    color: #1A8CFF;
 }
 
 #roman {
@@ -62,7 +62,7 @@
     box-sizing: content-box;
     border: none;
     padding: .6rem;
-    border-bottom: 2px solid darkorange;
+    border-bottom: 2px solid #1A8CFF;
     font-family: 'Jost', sans-serif;
     font-size: 24px;
     font-weight: bold;    

@@ -62,6 +62,7 @@
     box-sizing: content-box;
     border: none;
     padding: .6rem;
+    width: 100%;
     border-bottom: 2px solid #1A8CFF;
     font-family: 'Jost', sans-serif;
     font-size: 24px;
